@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "758139907214",
+    "project_id": "reminderhubapp",
+    "storage_bucket": "reminderhubapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758139907214:android:2b0c4b47a4b5e8bb4ceddf",
+        "android_client_info": {
+          "package_name": "com.example.myreminderhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758139907214-oks6a9bg2rbd46lkgdpivg45baat9i5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myreminderhub",
+            "certificate_hash": "c6fd016b65183be27d872a262bf412282583b90c"
+          }
+        },
+        {
+          "client_id": "758139907214-b99uopn52qqqdcf4pb4lu21jah9r0ghv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYNunlVfl3lJ2sMWGrkK-sZAbzSnvoo38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758139907214-b99uopn52qqqdcf4pb4lu21jah9r0ghv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

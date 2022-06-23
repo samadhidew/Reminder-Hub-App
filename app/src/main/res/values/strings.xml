@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyReminderHub</string>
+    <string name="title">Title</string>
+    <string name="schedule_notification">Schedule Notification</string>
+    <string name="titles">title</string>
+    <string name="date">date</string>
+    <string name="time">time</string>
+</resources>

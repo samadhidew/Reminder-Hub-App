@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myreminderhub">
+
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/reminderlogo"
+        android:label="Reminder HUB"
+        android:roundIcon="@drawable/reminderlogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyReminderHub">
+        <activity
+            android:name=".Personalview"
+            android:exported="false" />
+        <activity
+            android:name=".Device"
+            android:exported="false" />
+        <activity
+            android:name=".viewreminders"
+            android:exported="false" />
+
+        <receiver
+            android:name=".Notifications"
+            android:enabled="true" />
+
+        <activity
+            android:name=".Hother"
+            android:exported="false" />
+        <activity
+            android:name=".Hmedicine"
+            android:exported="false" />
+        <activity
+            android:name=".Mincome"
+            android:exported="false" />
+        <activity
+            android:name=".Oevents"
+            android:exported="false" />
+        <activity
+            android:name=".Monthlymain"
+            android:exported="false" />
+        <activity
+            android:name=".Occupationmain"
+            android:exported="false" />
+        <activity
+            android:name=".Occother"
+            android:exported="false" />
+        <activity
+            android:name=".Oproject"
+            android:exported="false" />
+        <activity
+            android:name=".Personal"
+            android:exported="false" />
+        <activity
+            android:name=".Uessentials"
+            android:exported="false" />
+        <activity
+            android:name=".Uevents"
+            android:exported="false" />
+        <activity
+            android:name=".Uother"
+            android:exported="false" />
+        <activity
+            android:name=".Upcoming"
+            android:exported="false" />
+        <activity
+            android:name=".Mbill"
+            android:exported="false" />
+        <activity
+            android:name=".Hexersice"
+            android:exported="false" />
+        <activity
+            android:name=".Healthmain"
+            android:exported="false" />
+        <activity
+            android:name=".Hdocmeet"
+            android:exported="false" />
+        <activity
+            android:name=".Hdailymedi"
+            android:exported="false" />
+        <activity
+            android:name=".Eduother"
+            android:exported="false" />
+        <activity
+            android:name=".Eduexam"
+            android:exported="false" />
+        <activity
+            android:name=".Eduevents"
+            android:exported="false" />
+        <activity
+            android:name=".Educationmain"
+            android:exported="false" />
+        <activity
+            android:name=".Eduassignments"
+            android:exported="false" />
+        <activity
+            android:name=".Birthday"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
