@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/wallpaperres"
+    android:orientation="vertical"
+    tools:context=".Educationmain">
+
+    <LinearLayout
+        android:layout_width="421dp"
+        android:layout_height="850dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:text="Education"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/assignbutton"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+            android:layout_marginTop="75dp"
+            android:layout_gravity="center"
+            android:text="Assignments" />
+
+        <Button
+            android:id="@+id/exambtn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Examinations" />
+
+        <Button
+            android:id="@+id/eventbtn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Events" />
+
+        <Button
+            android:id="@+id/otherbtn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Other" />
+
+        <Button
+            android:id="@+id/eduviewbtn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="View Reminders" />
+
+
+        <Button
+            android:id="@+id/edubackbutton"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+            android:text="back" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/wallpaperres"
+    tools:context=".Eduassignments">
+
+    <TextView
+        android:id="@+id/Birthday"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:text="Education Assignment"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:paddingHorizontal="30dp"
+        android:layout_marginTop="90dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/eduassignmenttitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Assignment Name"
+            android:background="@drawable/textvborder"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:text="Choose the Reminder Date and Time"
+            android:textSize="20dp"
+            android:textColor="@color/white">
+
+        </TextView>
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="81dp"
+            android:layout_height="183dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:timePickerMode="spinner"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="155dp" />
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            tools:layout_editor_absoluteX="-30dp"
+            tools:layout_editor_absoluteY="188dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/addeduassignbtn"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="add"
+        android:textColor="@color/white"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/assbackbutton"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:background="@color/white"/>
+
+
+</LinearLayout>
