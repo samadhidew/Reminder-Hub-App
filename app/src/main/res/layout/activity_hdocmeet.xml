@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/wallpaperres"
+    tools:context=".Hdocmeet">
+
+    <TextView
+        android:id="@+id/hmedical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:text="Doctor Meetups"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="90dp"
+        android:paddingHorizontal="30dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Hdocmeettitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Doctor Meetup"
+            android:background="@drawable/textvborder"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="Choose the Reminder Date and Time"
+            android:textColor="@color/white"
+            android:textSize="20dp">
+
+        </TextView>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="81dp"
+            android:layout_height="183dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:timePickerMode="spinner"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="155dp" />
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            tools:layout_editor_absoluteX="-30dp"
+            tools:layout_editor_absoluteY="188dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/addhdocmeetbtn"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:text="add"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/hdocmeetbackbtn"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:text="Back"
+        android:textColor="@color/white" />
+
+</LinearLayout>
