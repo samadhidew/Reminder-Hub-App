@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Monthlymain"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/wallpaperres">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:text="Monthly Upcoming"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/billbutton"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="75dp"
+            android:text="Bill" />
+
+        <Button
+            android:id="@+id/menbutton"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Menstrual cycle" />
+
+
+        <Button
+            android:id="@+id/minbutton"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="income" />
+
+
+        <Button
+            android:id="@+id/monbackbutton"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:text="back" />
+
+    </LinearLayout>
+
+</LinearLayout>
